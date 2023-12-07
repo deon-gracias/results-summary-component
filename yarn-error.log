@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add eslint eslint-plugin-tailwindcss prettier prettier-plugin-tailwindcss -D
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\deong\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\R\R-4.3.2\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\flutter\bin;C:\Program Files\Git\cmd;C:\Users\deong\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\deong\AppData\Local\Programs\Python\Python312\;C:\Users\deong\AppData\Local\Programs\Python\Launcher\;C:\Users\deong\AppData\Local\Microsoft\WindowsApps;C:\Users\deong\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.9.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\deong\Coding\results-summary-component\node_modules\@esbuild\win32-x64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "results-summary-component",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc && vite build",
+      "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+      "@types/react": "^18.2.37",
+      "@types/react-dom": "^18.2.15",
+      "@typescript-eslint/eslint-plugin": "^6.10.0",
+      "@typescript-eslint/parser": "^6.10.0",
+      "@vitejs/plugin-react": "^4.2.0",
+      "autoprefixer": "^10.4.16",
+      "eslint": "^8.53.0",
+      "eslint-plugin-react-hooks": "^4.6.0",
+      "eslint-plugin-react-refresh": "^0.4.4",
+      "postcss": "^8.4.32",
+      "prettier": "^3.1.0",
+      "prettier-plugin-tailwindcss": "^0.5.9",
+      "tailwindcss": "^3.3.6",
+      "typescript": "^5.2.2",
+      "vite": "^5.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
