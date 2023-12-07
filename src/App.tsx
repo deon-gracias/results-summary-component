@@ -1,4 +1,4 @@
-import data from "./assets/data.json";
+import data from "./assets/data";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
             </div>
           </div>
           <div className="flex w-full flex-col px-6 py-6 md:py-10">
-            <h1 className="text-bold mb-5 text-lg md:text-xl font-bold text-neutral-blue">
+            <h1 className="text-bold mb-5 text-lg font-bold text-neutral-blue md:text-xl">
               Summary
             </h1>
 
@@ -38,7 +38,7 @@ function App() {
                 />
               ))}
 
-              <button className="mt-4 rounded-full text-base font-semibold bg-neutral-blue px-4 py-3 text-neutral-white">
+              <button className="mt-4 rounded-full bg-neutral-blue px-4 py-3 text-base font-semibold text-neutral-white">
                 Continue
               </button>
             </div>
